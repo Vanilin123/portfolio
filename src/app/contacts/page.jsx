@@ -66,9 +66,9 @@ const ContactPage = () => {
                     className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-1"
                 >
                     <span>Сообщение:</span>
-                    <textarea
+                    <input
                         rows={6}
-                        className="bg-transparent border-b-2 border-b-black outline-none resize-none"
+                        className="bg-transparent border-b-2 border-b-black outline-none"
                         name="user_message"
                     />
                     <span>Ваш эмейл:</span>
